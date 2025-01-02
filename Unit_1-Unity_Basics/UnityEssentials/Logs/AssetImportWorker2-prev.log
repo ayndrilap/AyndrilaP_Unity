@@ -1,0 +1,1397 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.27f1 (27c554a2199c) revision 2606420'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Education' Language: 'en' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Period 7-8/Documents/GitHub/AyndrilaP_Unity/Unit_1-Unity_Basics/UnityEssentials
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53594
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Period 7-8/Documents/GitHub/AyndrilaP_Unity/Unit_1-Unity_Basics/UnityEssentials
+C:/Users/Period 7-8/Documents/GitHub/AyndrilaP_Unity/Unit_1-Unity_Basics/UnityEssentials
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21780]  Target information:
+
+Player connection [21780]  * "[IP] 10.87.50.122 [Port] 0 [Flags] 2 [Guid] 3733384059 [EditorId] 3733384059 [Version] 1048832 [Id] WindowsEditor(7,RMG07A-WS12-WIN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21780] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21780] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.27f1 (27c554a2199c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Period 7-8/Documents/GitHub/AyndrilaP_Unity/Unit_1-Unity_Basics/UnityEssentials/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P1000 (ID=0x1cb1)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   31.0.15.3799
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002823 seconds.
+- Loaded All Assemblies, in  0.631 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.557 seconds
+Domain Reload Profiling: 1187ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (252ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (224ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (558ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (488ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.739 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.449 seconds
+Domain Reload Profiling: 3184ms
+	BeginReloadAssembly (741ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (858ms)
+		LoadAssemblies (611ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (456ms)
+			TypeCache.Refresh (295ms)
+				TypeCache.ScanAssembly (248ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1450ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1011ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (756ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5906 unused Assets / (4.6 MB). Loaded Objects now: 6675.
+Memory consumption went from 183.5 MB to 179.0 MB.
+Total: 38.676000 ms (FindLiveObjects: 1.841700 ms CreateObjectMapping: 4.157500 ms MarkObjects: 22.505300 ms  DeleteObjects: 10.164100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 341683.429769 seconds.
+  path: Assets/_IntroToUnity/Materials/GridWhite_01_Mat.mat
+  artifactKey: Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IntroToUnity/Materials/GridWhite_01_Mat.mat using Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '330fa19ed35238cb3fe7a72c01ee8098') in 8.6491456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/_IntroToUnity/Materials/GridLightTriplanar_Mat.mat
+  artifactKey: Guid(e8b2c4d348f016647b36ab0d41bdfa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IntroToUnity/Materials/GridLightTriplanar_Mat.mat using Guid(e8b2c4d348f016647b36ab0d41bdfa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd08946cbd881cfd157721fd3cb06d449') in 23.5838791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/_IntroToUnity/Materials/GridLight_Mat.mat
+  artifactKey: Guid(0911785758aa6fd4eba150995036c217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IntroToUnity/Materials/GridLight_Mat.mat using Guid(0911785758aa6fd4eba150995036c217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a347210b18ae1ab83e1bb414035fb48') in 6.9162512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1058.401323 seconds.
+  path: Assets/_IntroToUnity/Scenes
+  artifactKey: Guid(cee6e5279b44f214c92986efd6cef9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IntroToUnity/Scenes using Guid(cee6e5279b44f214c92986efd6cef9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d275cfe6d2702a17b9836d18b4f9d9a') in 0.0009857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 552.337206 seconds.
+  path: Assets/_IntroToUnity/Scenes/EmptyScene.unity
+  artifactKey: Guid(06cede71126d1c64a888a972575dced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IntroToUnity/Scenes/EmptyScene.unity using Guid(06cede71126d1c64a888a972575dced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33122d7f1bbb36c7914b568c84e2d84c') in 0.0014296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.763498 seconds.
+  path: Assets/_IntroToUnity/Scenes/MyFirstScene.unity
+  artifactKey: Guid(06cede71126d1c64a888a972575dced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IntroToUnity/Scenes/MyFirstScene.unity using Guid(06cede71126d1c64a888a972575dced2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f16c9e07eaadb8f02063b6d01a982144') in 0.0014555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 551.440649 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png
+  artifactKey: Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png using Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b670f30bdf9cba9993c0fd4cdb3f206') in 0.0457536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png
+  artifactKey: Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png using Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3fef2abdbccb34805300d95dbb51ac1') in 0.0260255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.580295 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Tileable/GridLight.png
+  artifactKey: Guid(4be310a3b8f7484499658cbec820efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Tileable/GridLight.png using Guid(4be310a3b8f7484499658cbec820efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e498059da4814297ecbfe088f1852c6e') in 0.0139664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 414.138827 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3b16762d7764ebf721ed1f8c88aef8f') in 0.5469871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '972a866ad6f7ae9d91d1ba785c003e0a') in 0.0360599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_IntroToUnity/Materials/Plastic_Mat.mat
+  artifactKey: Guid(e4c206864b9ab4140b03f8d02982072f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Materials/Plastic_Mat.mat using Guid(e4c206864b9ab4140b03f8d02982072f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea9b03bdb8e55678350ca1e787080add') in 0.022056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30b0ffcdf229a6936db171397b5b0f0b') in 0.0210825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a297429fe756c2923ba9a8a4ba9a0da') in 0.0135266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Objects/CandleStick.prefab
+  artifactKey: Guid(e9f2acc15b5ed472f83b10790434bb52) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Objects/CandleStick.prefab using Guid(e9f2acc15b5ed472f83b10790434bb52) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eaee243b40f0dce7ad3fd8a2f604fea9') in 0.0624717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07db87235e663ce53af6b9c77d0e742c') in 0.0614131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Objects/Barrier.prefab
+  artifactKey: Guid(69ff62aa4c7648a4ab649583d0be627c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Objects/Barrier.prefab using Guid(69ff62aa4c7648a4ab649583d0be627c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6742cac9a5ee7da0c3fc12ac0d311c9') in 0.0226397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92e4c9d50404ee0a8fc9de5ba591626d') in 0.0229896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5aada676b3a6cf78147e8a95996fbc6') in 0.0581609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_IntroToUnity/Materials/Metal_Mat.mat
+  artifactKey: Guid(cb500092801e26e4ca95054d1084732d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Materials/Metal_Mat.mat using Guid(cb500092801e26e4ca95054d1084732d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07e356ff647c9f737cf640ef86bf043c') in 0.0139751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_IntroToUnity/UI/UI_Panel3CircleButton.png
+  artifactKey: Guid(04a96a0a030aee844a09897fc903022c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/UI/UI_Panel3CircleButton.png using Guid(04a96a0a030aee844a09897fc903022c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e6f72c6b5bbf91c493765430dc56dd0') in 0.0696284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Characters/2DEnemy.prefab
+  artifactKey: Guid(fabc6663cd332f94d9c3b6a1e917070b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Characters/2DEnemy.prefab using Guid(fabc6663cd332f94d9c3b6a1e917070b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d2ed12b40f68f42b9e541571ecdd2f2') in 0.0563574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Prototyping/Tunnel_Prefab.prefab
+  artifactKey: Guid(e5d7b87d422ee0f478ee09eb32e24f4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Prototyping/Tunnel_Prefab.prefab using Guid(e5d7b87d422ee0f478ee09eb32e24f4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85071bd33ea0b47e1d49c2ff5d188d68') in 0.0230275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd48df2e838c33d5d337d614bc3213555') in 0.0141065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69913800709d52c4378d9eb19793afcf') in 0.3885648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/_IntroToUnity/Prefabs/VFX/PoisonGas.prefab
+  artifactKey: Guid(6f672a31584a6a748912a49c1dce2f0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/VFX/PoisonGas.prefab using Guid(6f672a31584a6a748912a49c1dce2f0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04aa8f90488455bdad429e0b81e76221') in 0.1203168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Shaders/ToonShader.shadergraph
+  artifactKey: Guid(d56cffc8c4aac67428e343152fa22558) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Shaders/ToonShader.shadergraph using Guid(d56cffc8c4aac67428e343152fa22558) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '008eb05953ca78588e34321616c9504e') in 0.2460328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_IntroToUnity/Materials/GridLightTriplanar_Mat.mat
+  artifactKey: Guid(e8b2c4d348f016647b36ab0d41bdfa76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Materials/GridLightTriplanar_Mat.mat using Guid(e8b2c4d348f016647b36ab0d41bdfa76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73759dc75fce6019a2b5f8ccf7a3ab1a') in 0.0248698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/Barrier.mat
+  artifactKey: Guid(f93d5833932264f4eb376e58da2529a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/Barrier.mat using Guid(f93d5833932264f4eb376e58da2529a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfb6de7fb753d796a84acabdab2cc84c') in 0.0281855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Scripts/PlayerMovementRobot.cs
+  artifactKey: Guid(ccdb636c149964169a2a763f79e0a4fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Scripts/PlayerMovementRobot.cs using Guid(ccdb636c149964169a2a763f79e0a4fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e9b6b447412e8afbd99e4ee16d6a617') in 0.0170711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_IntroToUnity/Prefabs/VFX/Snow.prefab
+  artifactKey: Guid(d420fe1edafc9485c9c263c2e8523483) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/VFX/Snow.prefab using Guid(d420fe1edafc9485c9c263c2e8523483) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17f074b3862e41027e568b5556989a2b') in 0.0524743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/UI/BebasNeue-Regular SDF.asset
+  artifactKey: Guid(74f7d80c91eee4047ae5218b20e08a3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/UI/BebasNeue-Regular SDF.asset using Guid(74f7d80c91eee4047ae5218b20e08a3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52c3554b5b87648d9bcbfe5ef9817327') in 0.0494473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Animation/AdventurePlayer/TakeObjectAttempt.fbx
+  artifactKey: Guid(e4bb4f13e18282f42af56940bd27885c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Animation/AdventurePlayer/TakeObjectAttempt.fbx using Guid(e4bb4f13e18282f42af56940bd27885c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1cb7f67a6360ad51cf9828277870f5b') in 0.0872043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 156
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/Scaffolding.mat
+  artifactKey: Guid(2fbf0bcaf6f38814aa3c9981fb380a0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/Scaffolding.mat using Guid(2fbf0bcaf6f38814aa3c9981fb380a0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8d0fc2b7565ee95174bacd78982e7a8') in 0.0271191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Prototyping/Reticle_Circular.prefab
+  artifactKey: Guid(50f8d835961353c4a8e0c4b77d7f8876) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Prototyping/Reticle_Circular.prefab using Guid(50f8d835961353c4a8e0c4b77d7f8876) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ea32205152606687b30f684cdfff232') in 0.0231172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6911453526df8ccbfb9ef0b375d2b491') in 0.0171326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a743d80fc5b802fe7909efc0621b20e3') in 0.0135162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '289600100a760544dcb3e40b7e046f27') in 0.0114791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Models/Realistic/Oildrum.fbx
+  artifactKey: Guid(c9e4a63d29a92a549b0904ab23a16619) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Models/Realistic/Oildrum.fbx using Guid(c9e4a63d29a92a549b0904ab23a16619) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43b64fd3b4b3a67789f6de6686b59fff') in 0.0429827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Models/JohnLemon/JohnLemon.fbx
+  artifactKey: Guid(b44f3940c4940544a8c2c6aee5fa086f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Models/JohnLemon/JohnLemon.fbx using Guid(b44f3940c4940544a8c2c6aee5fa086f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc78b75f199064afc36010f523a6f1d3') in 0.0355333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Animation/JohnLemon/JohnLemon.controller
+  artifactKey: Guid(125d3f71c2e7faf4cb375103b484d93e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Animation/JohnLemon/JohnLemon.controller using Guid(125d3f71c2e7faf4cb375103b484d93e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94a4c89ed772dea703c1bf219456864e') in 0.0200316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Models/Prototyping/SM_Icon_SelectionRing_02.fbx
+  artifactKey: Guid(f53a62680c316ef41be1a025e7add452) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Models/Prototyping/SM_Icon_SelectionRing_02.fbx using Guid(f53a62680c316ef41be1a025e7add452) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd29d7ee39dbdb3e83ec3e2eccf0f324') in 0.0320382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Prototyping/Box_350x250x300_Prefab.prefab
+  artifactKey: Guid(687dbafc2b84b2846b9a4a7a7dae2a7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Prototyping/Box_350x250x300_Prefab.prefab using Guid(687dbafc2b84b2846b9a4a7a7dae2a7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8eb9b96a61fef396a4bb4c43424b18cc') in 0.0270504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Scripts/PlayerMovement.cs
+  artifactKey: Guid(54ce3da5cfe30844d9a739dee37bf07d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Scripts/PlayerMovement.cs using Guid(54ce3da5cfe30844d9a739dee37bf07d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3b0730984e9ac1fd66d729efad22828') in 0.0148057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'bd320d28133997ace1f7d2725e80dec8') in 0.0171974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Prototyping/Stairs_200x100x200_Prefab.prefab
+  artifactKey: Guid(466621a4836aa504c87c15d88722d465) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Prototyping/Stairs_200x100x200_Prefab.prefab using Guid(466621a4836aa504c87c15d88722d465) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af3e36925abdeae26cd23f15ae16d9c0') in 0.0223667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Construction/Barrier_Color.png
+  artifactKey: Guid(9b9e32c9a789a9e4c8794dfaf886aa44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Construction/Barrier_Color.png using Guid(9b9e32c9a789a9e4c8794dfaf886aa44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88134010fb5b39cbb885f866079df93f') in 0.0210939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Shaders/Toon/Calculate Main Light.shadersubgraph
+  artifactKey: Guid(329fa1bf1e7447a4d9569a565af12434) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Shaders/Toon/Calculate Main Light.shadersubgraph using Guid(329fa1bf1e7447a4d9569a565af12434) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2771dbe91e45ea0781764c38612aaaa3') in 0.022977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Construction/Barrier_MetallicSmoothness.png
+  artifactKey: Guid(a5666aaf444251940a9273a703977e3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Construction/Barrier_MetallicSmoothness.png using Guid(a5666aaf444251940a9273a703977e3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb89a28b89414cf52e59f9a0922dd223') in 0.0182893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Construction/OilDrum_AmbientOcclusion.png
+  artifactKey: Guid(6cdca70fc14f755439c5cd1c66b42a07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Construction/OilDrum_AmbientOcclusion.png using Guid(6cdca70fc14f755439c5cd1c66b42a07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ca7f31a1d8c8d3ec76db7dff4ac6cde') in 0.0181935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f054aa053e6333793fe5e7c7402e1175') in 0.0136185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Environment/Prototyping_Environment.prefab
+  artifactKey: Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Environment/Prototyping_Environment.prefab using Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '766af295536ddf2808fa3bcd5e70f9d6') in 0.0274541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 303
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Objects/Scaffolding.prefab
+  artifactKey: Guid(9146ed88cd111d14c9a9727fb67bd1f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Objects/Scaffolding.prefab using Guid(9146ed88cd111d14c9a9727fb67bd1f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e835309295f7a8f3eb0a0c8a01d1f09a') in 0.0133281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Animation/AdventurePlayer/Idle.fbx
+  artifactKey: Guid(c61460273d36d0b4e936b68977241e58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Animation/AdventurePlayer/Idle.fbx using Guid(c61460273d36d0b4e936b68977241e58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '866b8358c4b1912727acd8291170522d') in 0.0373617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 162
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Tileable/Metal_Albedo.tif
+  artifactKey: Guid(6b4d4ff869f183143aa9ae1e0c4dbfbd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Tileable/Metal_Albedo.tif using Guid(6b4d4ff869f183143aa9ae1e0c4dbfbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3725caf3b9b820da1f23be1b81338868') in 0.0255948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Construction/Scaffolding_Normal.png
+  artifactKey: Guid(fab2e1671ccb3ca4d87fc3f1d48271df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Construction/Scaffolding_Normal.png using Guid(fab2e1671ccb3ca4d87fc3f1d48271df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0098caf1b8e6711240b24fa2b75dd0b') in 0.0249708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd7006d47a11c3386739df31704c2e77') in 0.0137379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_IntroToUnity/UI/UI_Panel3SquareButton.png
+  artifactKey: Guid(fdeb2fca800b119449cf6028c7a9eeea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/UI/UI_Panel3SquareButton.png using Guid(fdeb2fca800b119449cf6028c7a9eeea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6526d6df39772557efa82bcc3aa4a91') in 0.0210133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/UI/PTSans-Bold SDF.asset
+  artifactKey: Guid(ec2be21a060489b46913caca2750ae83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/UI/PTSans-Bold SDF.asset using Guid(ec2be21a060489b46913caca2750ae83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff4bbc4b552776ebd97e51daede7effd') in 0.0306982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Models/AdventureGame/Fruit_Shelf01.fbx
+  artifactKey: Guid(49a6f939ac4f5d44897f0790994c3b84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Models/AdventureGame/Fruit_Shelf01.fbx using Guid(49a6f939ac4f5d44897f0790994c3b84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '442fc61939a1c5515e65575e2c99eaae') in 0.0782179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/AdventureGame/MarketFruitAlbedo.tif
+  artifactKey: Guid(18f57289380b2874cb4e97463670fd40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/AdventureGame/MarketFruitAlbedo.tif using Guid(18f57289380b2874cb4e97463670fd40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0658f4791338816a500b57acc02b80e0') in 0.0297349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Construction/Scaffolding_MetallicSmoothness.png
+  artifactKey: Guid(96cba766ecc5a3d4393caca717702305) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Construction/Scaffolding_MetallicSmoothness.png using Guid(96cba766ecc5a3d4393caca717702305) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5307a69367a381036554733b226c9b9b') in 0.0251464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/VFX/Materials/SmokeySteam01.mat
+  artifactKey: Guid(df0a9d4a1d2f26c4eb697a71ac5b82d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/VFX/Materials/SmokeySteam01.mat using Guid(df0a9d4a1d2f26c4eb697a71ac5b82d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '766b31bf30e07166f5e7b16894afa39e') in 0.0287938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Tileable/Pavement_SmallMoss_AO.png
+  artifactKey: Guid(0d4b22e0c21648c4aab169327d778da9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Tileable/Pavement_SmallMoss_AO.png using Guid(0d4b22e0c21648c4aab169327d778da9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06b18f6f89721054be1a745309751206') in 0.025643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Tileable/Metal_Normal.tif
+  artifactKey: Guid(5cd083a94eca7ec4f9fec8df75932ba4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Tileable/Metal_Normal.tif using Guid(5cd083a94eca7ec4f9fec8df75932ba4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa5c8ede458058a049ff7925cc0f3b1b') in 0.0243765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_IntroToUnity/Materials/Pavement_Mat.mat
+  artifactKey: Guid(eec0af13b693f3e4b8a78697aa9b6d50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Materials/Pavement_Mat.mat using Guid(eec0af13b693f3e4b8a78697aa9b6d50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd912cc964b4dd05572d22f9d934707d3') in 0.0292879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Shaders/Toon/Get Main Light.shadersubgraph
+  artifactKey: Guid(06f72859652db3940be2639f0259c42e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Shaders/Toon/Get Main Light.shadersubgraph using Guid(06f72859652db3940be2639f0259c42e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '926bcf9bbccc7880b723f369b98fd1a8') in 0.0186535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_IntroToUnity/Materials/GridGreen_Mat.mat
+  artifactKey: Guid(070533014fd304aaa9e629c7d1c4caf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Materials/GridGreen_Mat.mat using Guid(070533014fd304aaa9e629c7d1c4caf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc8462be1fac1aa4c9483060ac577d3e') in 0.0183997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Characters/AdventureGameCharacter.prefab
+  artifactKey: Guid(5f2d90dd3854b9949878320b881e95fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Characters/AdventureGameCharacter.prefab using Guid(5f2d90dd3854b9949878320b881e95fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51263548237c0be01ab5ac1ba8fb004a') in 0.03659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 203
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Scooter_A/Scooter_A_AO.png
+  artifactKey: Guid(d60ce2ac4a1b63d4a9facdeb082351d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Scooter_A/Scooter_A_AO.png using Guid(d60ce2ac4a1b63d4a9facdeb082351d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '813da7fc9e4c1bff96cfb34e836ef5f9') in 0.0202803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/BedRoom/Floor.mat
+  artifactKey: Guid(2bfd182a00290924abf99a86daf1e23c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/BedRoom/Floor.mat using Guid(2bfd182a00290924abf99a86daf1e23c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0ddab679184fa4c920f02173fe733f7') in 0.0213387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/VFX/Textures/smokeysteam.tif
+  artifactKey: Guid(76e25da1cefc7f446bcc43a70fb13a0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/VFX/Textures/smokeysteam.tif using Guid(76e25da1cefc7f446bcc43a70fb13a0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb4a6feb3d97dbc788115303b313ee6a') in 0.0254292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/VFX/Textures/wispySmoke.tif
+  artifactKey: Guid(b96c69e599825d84e985962673d1679c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/VFX/Textures/wispySmoke.tif using Guid(b96c69e599825d84e985962673d1679c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd29f08070baec8d10805bee83b072521') in 0.0331396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Animation/AdventurePlayer/IdleBlender.fbx
+  artifactKey: Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Animation/AdventurePlayer/IdleBlender.fbx using Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b500d559ffd7bbe3299251c8c6a6b20') in 0.036189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 157
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Construction/Scaffolding_AmbientOcclusion.png
+  artifactKey: Guid(0e848449d1cda6e498319554c647f17e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Construction/Scaffolding_AmbientOcclusion.png using Guid(0e848449d1cda6e498319554c647f17e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad2246c0e6a29b0da44c7e6600c7fd6c') in 0.0205742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_IntroToUnity/Materials/GridOrange_Mat.mat
+  artifactKey: Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Materials/GridOrange_Mat.mat using Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b48d4253defb6c6ce5a2b4098a640c7') in 0.0244509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72f40331b554e44427a1ae4c8560c9cb') in 0.0662703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/VFX/Emissive.mat
+  artifactKey: Guid(effb672a2c71f0c40b7b1960d798968a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/VFX/Emissive.mat using Guid(effb672a2c71f0c40b7b1960d798968a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9926127db6ef5e0894f640380dbd6bbd') in 0.0169295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/PictureFrame.mat
+  artifactKey: Guid(e709f83e862ff314e8258b7a60c45ce2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/PictureFrame.mat using Guid(e709f83e862ff314e8258b7a60c45ce2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '293e6be2cb86de802feb01bcc39710b5') in 0.0234458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/Wall_Corridor.mat
+  artifactKey: Guid(b6a0ac0240204cb4ea4b84d1e2dab2b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/Wall_Corridor.mat using Guid(b6a0ac0240204cb4ea4b84d1e2dab2b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2aa3e6281cb5713bb9193ebbc5010ae') in 0.0233456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8928cf2ed4c61d1c489f3f55107779a8') in 0.0389425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_IntroToUnity/Scripts/ShootUpAfterDelay.cs
+  artifactKey: Guid(cb59ea2629f4d4fb4801f5c6ebc4e889) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Scripts/ShootUpAfterDelay.cs using Guid(cb59ea2629f4d4fb4801f5c6ebc4e889) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67e49cbb10212cb895df4549144621f7') in 0.0255131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acbfd2748c49f23bb20eadb126b7f509') in 0.0492129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Objects/Barrel.prefab
+  artifactKey: Guid(f96eab6a247455d47a467950b4fe89fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Objects/Barrel.prefab using Guid(f96eab6a247455d47a467950b4fe89fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85b1c2544ca760cf485c6565e1c52e7b') in 0.0352304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Models/JohnLemon/Corridor/PictureFrame_Wolf.FBX
+  artifactKey: Guid(16359bd0c00e50e4580e93430782bac3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Models/JohnLemon/Corridor/PictureFrame_Wolf.FBX using Guid(16359bd0c00e50e4580e93430782bac3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72d73ce4831221863cd024388d54d56d') in 0.0436218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Shaders/TriplanarShader.shadergraph
+  artifactKey: Guid(9891f5db0b19a8d47aca6d0444c8e546) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Shaders/TriplanarShader.shadergraph using Guid(9891f5db0b19a8d47aca6d0444c8e546) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06c5ddb1d29a9f8a25a0d1292172db6e') in 0.0228288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94d9004e5755310c5efee42647ad794f') in 0.0156644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Characters/JohnLemon.prefab
+  artifactKey: Guid(e58a8494f35e17f45ba5bbffdfb92517) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Characters/JohnLemon.prefab using Guid(e58a8494f35e17f45ba5bbffdfb92517) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f69aff86d3c4fb13db238ef9433f565c') in 0.063857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/VFX/Textures/SnowTexture.png
+  artifactKey: Guid(2a202276abba34cf29113e61ad1389e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/VFX/Textures/SnowTexture.png using Guid(2a202276abba34cf29113e61ad1389e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0ff5b4deecfd33054702320ed04d50b') in 0.0366592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/VFX/Textures/SmokeParticles.png
+  artifactKey: Guid(e10d7f08450dd7741a97f724024a3bd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/VFX/Textures/SmokeParticles.png using Guid(e10d7f08450dd7741a97f724024a3bd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f9fcab321e47d0d56938e3d1c8c3390') in 0.0274331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/license.txt
+  artifactKey: Guid(b846ecad8a98bd34dba8a5daf996d86e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/license.txt using Guid(b846ecad8a98bd34dba8a5daf996d86e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd8b366d30dc1fa6cfd32f1ee82a7bc2') in 0.0143235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Models/JohnLemon/Corridor/Wall_Corner_Exterior_Out.fbx
+  artifactKey: Guid(8a4dc94854ea93147b8b87b7df72a8c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Models/JohnLemon/Corridor/Wall_Corner_Exterior_Out.fbx using Guid(8a4dc94854ea93147b8b87b7df72a8c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b8628938c2d98a43150601dfda2c9c8') in 0.0312381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Models/JohnLemon/Corridor/Wall_Corner_Exterior_In.fbx
+  artifactKey: Guid(ce7c02c9dadf6a6469afbcc32ab786ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Models/JohnLemon/Corridor/Wall_Corner_Exterior_In.fbx using Guid(ce7c02c9dadf6a6469afbcc32ab786ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfeb2211cc8efe6e2245982a62431609') in 0.0257128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/Door_Post.mat
+  artifactKey: Guid(78a0737fcaa84b14d9527b1565fc5488) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/Door_Post.mat using Guid(78a0737fcaa84b14d9527b1565fc5488) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '655b0dd4ddf5341fce927d155552b429') in 0.0310075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/VFX/Textures/RaindropTexture.png
+  artifactKey: Guid(325412413754045069b4b7da10244388) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/VFX/Textures/RaindropTexture.png using Guid(325412413754045069b4b7da10244388) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcb350b9d2b92a8a36aee4cba141aba1') in 0.0235713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Models/JohnLemon/Corridor/CeilingPlane.fbx
+  artifactKey: Guid(4aa23393587d7204bbc9f4a30599bf61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Models/JohnLemon/Corridor/CeilingPlane.fbx using Guid(4aa23393587d7204bbc9f4a30599bf61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a444ddbd6aa0449f52b670893292ad98') in 0.0285253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Characters/Light_Cone.mat
+  artifactKey: Guid(98a5d7f03b88cef44932b3206c7bd8db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Characters/Light_Cone.mat using Guid(98a5d7f03b88cef44932b3206c7bd8db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e00b5857ce02995ce02d3a9d6eee7084') in 0.0164269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/Floor.mat
+  artifactKey: Guid(059e99a55d1d3614ebfbdffbbe2e3e25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/Floor.mat using Guid(059e99a55d1d3614ebfbdffbbe2e3e25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '353351736473c4baf43f1d26d0223a1f') in 0.0291431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/Light_Glass.mat
+  artifactKey: Guid(d50d52e4c69a3cf45bf45594297ca6c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/Light_Glass.mat using Guid(d50d52e4c69a3cf45bf45594297ca6c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84693b74d867f3993dbbfbfe22a479c8') in 0.0197377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Characters/Ghost_RimMask.tif
+  artifactKey: Guid(0460363c9d54fe24a8f22455cba27fd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Characters/Ghost_RimMask.tif using Guid(0460363c9d54fe24a8f22455cba27fd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6fdae2b886418c1bb255df90050912e') in 0.0228826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Prefabs/JohnLemon/VFX/Flickering_Light.prefab
+  artifactKey: Guid(7d9dddbfcd0c9c0468dfbc7d25bd2d79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Prefabs/JohnLemon/VFX/Flickering_Light.prefab using Guid(7d9dddbfcd0c9c0468dfbc7d25bd2d79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c931cad872657784f5cd1e2bcb3bf134') in 0.0340026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/BedRoom/Bed_Albedo.tif
+  artifactKey: Guid(29ce91977ba80d54ba227ab8593a8156) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/BedRoom/Bed_Albedo.tif using Guid(29ce91977ba80d54ba227ab8593a8156) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a04ea7652f18884fcf56e343e4b742a4') in 0.0205344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/BedRoom/Wall_Bedroom_Albedo.tif
+  artifactKey: Guid(dfc4afa012e49ff46b46da3e6572b712) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/BedRoom/Wall_Bedroom_Albedo.tif using Guid(dfc4afa012e49ff46b46da3e6572b712) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '421d3c16d9534aba41ef475a8b54a67f') in 0.02196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/BedRoom/Bed_Normal.tif
+  artifactKey: Guid(6e2078e311db62b4fbe281f7e5ef27da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/BedRoom/Bed_Normal.tif using Guid(6e2078e311db62b4fbe281f7e5ef27da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3d499906ff4be95ff3d5d366e1b4065') in 0.0251475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/BedRoom/BedSide_Albedo.tif
+  artifactKey: Guid(b4d856ea788f6514cb8dc3c068fb48a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/BedRoom/BedSide_Albedo.tif using Guid(b4d856ea788f6514cb8dc3c068fb48a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc0baa13340ab8da42d44b6664827a54') in 0.0385549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Characters/Gargoyle_Albedo.tif
+  artifactKey: Guid(a5fd5ae3aaf893e4197df481b8c9346e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Characters/Gargoyle_Albedo.tif using Guid(a5fd5ae3aaf893e4197df481b8c9346e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3be9b70132d35d09d5a98204b4193a3') in 0.021429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Tileable/GridDark.png
+  artifactKey: Guid(96fa3ac94b199fe46a5c7ec5af68c574) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Tileable/GridDark.png using Guid(96fa3ac94b199fe46a5c7ec5af68c574) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4202da75fb5435eaf499ffc63f09278e') in 0.0219355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Corridor/Window_MetallicSmooth.tif
+  artifactKey: Guid(b665bff822259f14285dff49ef07464c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Corridor/Window_MetallicSmooth.tif using Guid(b665bff822259f14285dff49ef07464c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5de4149a5708d47d986cd6138a85af27') in 0.023529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Corridor/Wall_Corridor_Albedo.tif
+  artifactKey: Guid(1207488b81bf4104cac3f5e1e4d8e653) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Corridor/Wall_Corridor_Albedo.tif using Guid(1207488b81bf4104cac3f5e1e4d8e653) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf05c1bf9ae91e5acd47cd21b42835db') in 0.0215902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Corridor/Light_Emissive.tif
+  artifactKey: Guid(f50ecdc1b08817e489a2944858f87688) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Corridor/Light_Emissive.tif using Guid(f50ecdc1b08817e489a2944858f87688) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78e091a13b07d50c52281f2bd52a20b4') in 0.0255464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Corridor/Light_Occlusion.tif
+  artifactKey: Guid(d76c7a9a85279b048b93119b0a0a3c7a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Corridor/Light_Occlusion.tif using Guid(d76c7a9a85279b048b93119b0a0a3c7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22cb72f0dff427fdb0a89ce3178cc04e') in 0.0218284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/DiningRoom/CandleStick_Normal.tif
+  artifactKey: Guid(45ab703b0a5a43c4698f496148039fab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/DiningRoom/CandleStick_Normal.tif using Guid(45ab703b0a5a43c4698f496148039fab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30a17a2f5488b7e0fb33dfc52f4cb982') in 0.0193779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/DiningRoom/CandleStick_Albedo.tif
+  artifactKey: Guid(5cd10124400cb26478cd41db912ce90f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/DiningRoom/CandleStick_Albedo.tif using Guid(5cd10124400cb26478cd41db912ce90f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebcdac24a2e0536b90aba27bf66960be') in 0.0208235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Corridor/FramedPicture_MetallicSmooth.tif
+  artifactKey: Guid(98129ffddbd9e0644a0cb1b07bd530ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Corridor/FramedPicture_MetallicSmooth.tif using Guid(98129ffddbd9e0644a0cb1b07bd530ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f189a0c342d3fdf86386e75c9448bffe') in 0.0300493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Animation/JohnLemon/John@Idle.fbx
+  artifactKey: Guid(873202b19b03a8a4e976f0b15d21cd24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Animation/JohnLemon/John@Idle.fbx using Guid(873202b19b03a8a4e976f0b15d21cd24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a008e5e8fc223c53e4b6cd1d5836927') in 0.0337429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Tileable/GridLight.png
+  artifactKey: Guid(4be310a3b8f7484499658cbec820efe3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Tileable/GridLight.png using Guid(4be310a3b8f7484499658cbec820efe3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba41dc45916258aba58ee637bdbbaf33') in 0.0241205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/DiningRoom/Wall_Diningroom_Occlusion.png
+  artifactKey: Guid(51e98ad48af0fef45bd73f8f15e1c08d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/DiningRoom/Wall_Diningroom_Occlusion.png using Guid(51e98ad48af0fef45bd73f8f15e1c08d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bc6ecd322e032b7ebd319357c738196') in 0.025114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/DiningRoom/Clock_Normal.tif
+  artifactKey: Guid(faaba07ca4daae24f88790e6c5e1e109) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/DiningRoom/Clock_Normal.tif using Guid(faaba07ca4daae24f88790e6c5e1e109) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42d85cafd52e3e5b4bcfda26d0fa69c5') in 0.022961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx
+  artifactKey: Guid(aa38d7b0e367ecc4aac915dcfe957879) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx using Guid(aa38d7b0e367ecc4aac915dcfe957879) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63e678f4829ab7191acba3a84bcbd554') in 0.0277314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx
+  artifactKey: Guid(bfff06aaff363a847ad37bf592364e6b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx using Guid(bfff06aaff363a847ad37bf592364e6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d48e6c827a0113f58426952adbb056c') in 0.0367587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Prefabs/JohnLemon/Environment/Corridors/Wall_Window_02.prefab
+  artifactKey: Guid(962c5f6cf906ba8459778725994343f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Prefabs/JohnLemon/Environment/Corridors/Wall_Window_02.prefab using Guid(962c5f6cf906ba8459778725994343f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc1a4a88c1db11aebef2a01acaddde9e') in 0.0192557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Prefabs/JohnLemon/Environment/Bedroom/Wardrobe.prefab
+  artifactKey: Guid(1f2baa001e967a24fa7e0722636120b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Prefabs/JohnLemon/Environment/Bedroom/Wardrobe.prefab using Guid(1f2baa001e967a24fa7e0722636120b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e7b322e7f7b8271b557328d7e8b5a27') in 0.0181309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/DiningRoom/Clock_Occlusion.tif
+  artifactKey: Guid(d47ff02a1774eaa4595a12e60aff2199) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/DiningRoom/Clock_Occlusion.tif using Guid(d47ff02a1774eaa4595a12e60aff2199) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e314bad1fa756024af015397939a774') in 0.0236511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/VFX/DustMote.png
+  artifactKey: Guid(394e93ce356b57344903a08ff72fcab2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/VFX/DustMote.png using Guid(394e93ce356b57344903a08ff72fcab2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11f4916278afc054fea0a0e950f7c955') in 0.0260063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Characters/Gargoyle_Normal.tif
+  artifactKey: Guid(34c958df8066e254c9fe19021fb928f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Characters/Gargoyle_Normal.tif using Guid(34c958df8066e254c9fe19021fb928f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '846b80c307dabe37e21bbf299f8aacf2') in 0.0219974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_RGB.png
+  artifactKey: Guid(ebb3cb83fc836ca4d82423847425c134) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_RGB.png using Guid(ebb3cb83fc836ca4d82423847425c134) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8a856e4ea673abc6e2476f0ec1ae592') in 0.0219484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N.anim.fbx
+  artifactKey: Guid(8269a9f8cf495034c817722ac21f309f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N.anim.fbx using Guid(8269a9f8cf495034c817722ac21f309f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51d72173889cddb97b561f446eaee146') in 0.033223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/Environment/Shaders/Built-in_RP/Triplanar.shader
+  artifactKey: Guid(e61aeb7487ccb5e4fb6d45036e33fb7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/Environment/Shaders/Built-in_RP/Triplanar.shader using Guid(e61aeb7487ccb5e4fb6d45036e33fb7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a2385e3c73af9e09b673ad997b84e43') in 0.0141467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller
+  artifactKey: Guid(40db3173a05ae3242b1c182a09b0a183) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller using Guid(40db3173a05ae3242b1c182a09b0a183) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae6610c4f7a459f15f3f2f89012c25be') in 0.0196528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat
+  artifactKey: Guid(43714b68324cc2c409d534d9874f2a2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat using Guid(43714b68324cc2c409d534d9874f2a2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30d526447be86f890b3976d84534de45') in 0.0173321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx
+  artifactKey: Guid(36078ab0369161e49a29d349ae3e0739) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx using Guid(36078ab0369161e49a29d349ae3e0739) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f9399ed8208348be62ee224dfc4749f') in 0.0401024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 150
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9145cb5f84719fb13671112fa69a2bf3') in 0.0260563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Construction/OilDrum_Normal.png
+  artifactKey: Guid(e73d6a1ffa8553e4fac9220c89d7eac6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Construction/OilDrum_Normal.png using Guid(e73d6a1ffa8553e4fac9220c89d7eac6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87fe0807789d87773a9efe94e89c60b2') in 0.0258684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Animation/2D/Animations/AnimationClips/Enemy/MrClockworkRunRight.anim
+  artifactKey: Guid(5d2a061a644b3d540bf2ee3003e198f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Animation/2D/Animations/AnimationClips/Enemy/MrClockworkRunRight.anim using Guid(5d2a061a644b3d540bf2ee3003e198f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab91a32b5e168e657de71eeb65eb2c9f') in 0.0194238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_RGB.png
+  artifactKey: Guid(7726b19d1b96999498be0597aefa600b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_RGB.png using Guid(7726b19d1b96999498be0597aefa600b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8afcb000ca661bed2c032aec56e39e36') in 0.0197776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_IntroToUnity/Prefabs/Objects/Clock.prefab
+  artifactKey: Guid(96ba093c1bb2d40eaade520bc5251c0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/Objects/Clock.prefab using Guid(96ba093c1bb2d40eaade520bc5251c0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '041b28fffa96f7ee66b01394b0e69d07') in 0.0280926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Animation/AdventurePlayer/TakeObjects.fbx
+  artifactKey: Guid(836db2ed51e808246958923579aa47e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Animation/AdventurePlayer/TakeObjects.fbx using Guid(836db2ed51e808246958923579aa47e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd3fedb0fd8e08fdd93ef55c36d5cfbf') in 0.0482879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 164
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/DiningRoom/Wall_DiningRoom_Normal.png
+  artifactKey: Guid(62988dc9ed597a5429d2559fb3c2edf6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/DiningRoom/Wall_DiningRoom_Normal.png using Guid(62988dc9ed597a5429d2559fb3c2edf6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aad8fad93c4c32c4a6fc1ce56f9dea7d') in 0.0223755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/StarterAssets/Environment/Shaders/Built-in_RP/ArmatureShader.shader
+  artifactKey: Guid(6d99c6e0a8f8bf44bb8bcb6e5a056d01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/StarterAssets/Environment/Shaders/Built-in_RP/ArmatureShader.shader using Guid(6d99c6e0a8f8bf44bb8bcb6e5a056d01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6eb667c828975df6519f5d33844e1f79') in 0.0191748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/Tileable/Metal_MetallicSmoothness.tif
+  artifactKey: Guid(4a7dd929c229f0d4394dfc85d3aeb9c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/Tileable/Metal_MetallicSmoothness.tif using Guid(4a7dd929c229f0d4394dfc85d3aeb9c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a1101b2676b13b8cc6f373689e3677b') in 0.0227393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Prefabs/JohnLemon/VFX/CandleFlame.prefab
+  artifactKey: Guid(a24956b5a0e552047a522ea09e794d95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Prefabs/JohnLemon/VFX/CandleFlame.prefab using Guid(a24956b5a0e552047a522ea09e794d95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51ed5a7ed5370f3656d17f44830d95bf') in 0.0622899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/VFX/Materials/MediumFlame01.mat
+  artifactKey: Guid(5584a46a2a298d348a252b58b4847ae0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/VFX/Materials/MediumFlame01.mat using Guid(5584a46a2a298d348a252b58b4847ae0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6cf3d1f1aa5f15f32565cf6d152c15f0') in 0.0286884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/BedRoom/Bedside.mat
+  artifactKey: Guid(3c953e27c072d4148887dc773952671a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/BedRoom/Bedside.mat using Guid(3c953e27c072d4148887dc773952671a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37dca51c4b11d45f493c840af5f7524a') in 0.0192146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Characters/JohnLemon_Normal.tif
+  artifactKey: Guid(6f5d24c43fe71f34493bb3d379dfe9d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Textures/JohnLemon/Characters/JohnLemon_Normal.tif using Guid(6f5d24c43fe71f34493bb3d379dfe9d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '801a0faaf47376d8f01fb90c6a398e09') in 0.0225164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Models/Prototyping/Letters/N.fbx
+  artifactKey: Guid(ca13c78be64d348ebbcf54ee9ce69341) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Models/Prototyping/Letters/N.fbx using Guid(ca13c78be64d348ebbcf54ee9ce69341) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78c95f4a69549733442c0e55d2b6381e') in 0.0309943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_IntroToUnity/Prefabs/VFX/Flames.prefab
+  artifactKey: Guid(df32e2d5f586a46e0957357b171bb08d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/Prefabs/VFX/Flames.prefab using Guid(df32e2d5f586a46e0957357b171bb08d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47020e004ec1377e67d15031aff7d8a1') in 0.0540356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_IntroToUnity/UI/UI_Panel1SquareButton.png
+  artifactKey: Guid(fdbacc112902b8f4d8cd3492b3a33082) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/UI/UI_Panel1SquareButton.png using Guid(fdbacc112902b8f4d8cd3492b3a33082) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1f3bfcd7f1c9c1333d405893e5f9765') in 0.023594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/BedRoom/Wardrobe.mat
+  artifactKey: Guid(9e2335d028e7ab645970536c61cf4aac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/BedRoom/Wardrobe.mat using Guid(9e2335d028e7ab645970536c61cf4aac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ed60ad5b5342cfab3aac44906ae6d6b') in 0.0182717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/Light.mat
+  artifactKey: Guid(f8576e77e5ebf4b49ae5475f634ed53b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/Light.mat using Guid(f8576e77e5ebf4b49ae5475f634ed53b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55b612dd848e92d56d868f0b2aead77a') in 0.0277634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd33757ceba10cc824e1700b77c29e37f') in 0.0250475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/Window.mat
+  artifactKey: Guid(5d7f4ca07121e414288c4908a4803bed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_IntroToUnity/SourceFiles/Materials/JohnLemon/Corridor/Window.mat using Guid(5d7f4ca07121e414288c4908a4803bed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9769dda7d2387169201d83c109f01b35') in 0.0223353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
