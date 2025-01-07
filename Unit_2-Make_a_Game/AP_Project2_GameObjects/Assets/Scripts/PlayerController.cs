@@ -25,6 +25,16 @@ public class PlayerController : MonoBehaviour
         
        rb.AddForce(movement * speed);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy1"))
+        {Destroy(gameObject);
+        winTextObject.gameObject.SetActive(true);
+        winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose! :c";
+        }
+    }
+
     void OnTriggerEnter(Collider other)
     {
        if(other.gameObject.CompareTag("PickUp"))
@@ -46,6 +56,7 @@ public class PlayerController : MonoBehaviour
         if (count >= 14)
        {
            winTextObject.SetActive(true);
+           Destroy(GameObject.FindGameObjectWithTag("Enemy1"));
        }
    }
 }
