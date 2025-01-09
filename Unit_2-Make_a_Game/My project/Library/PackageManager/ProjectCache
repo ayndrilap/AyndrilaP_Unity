@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638718747911111492
-    m_Hash: 3781009492
+      ticks: 638720427650886679
+    m_Hash: 2125003504
   m_LockFileStatus:
     m_FilePath: C:/Users/Period 7-8/Documents/GitHub/AyndrilaP_Unity/Unit_2-Make_a_Game/My
       project/Packages/packages-lock.json
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638718747911163147
-    m_Hash: 3827108170
+      ticks: 638720427650886679
+    m_Hash: 3874183579
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
