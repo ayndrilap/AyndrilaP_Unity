@@ -4,6 +4,7 @@
 		<type fullname="EnemyMovement" preserve="nothing"/>
 		<type fullname="EnemyMovement1" preserve="nothing"/>
 		<type fullname="PlayerController" preserve="nothing"/>
+		<type fullname="Readme" preserve="nothing"/>
 		<type fullname="Rotator" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.AI.Navigation">
