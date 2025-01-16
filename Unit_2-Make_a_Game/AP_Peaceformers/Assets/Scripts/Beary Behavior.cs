@@ -37,10 +37,21 @@ public class BearyBehavior : MonoBehaviour
     void SetCountText() 
    {
        countText.text =  "Count: " + count.ToString();
-       if (count >= 12)
+       if (count >= 6)
        {
            winTextObject.SetActive(true);
        }
    }
+    private void OnCollisionEnter(Collision collision)
+{
+   if (collision.gameObject.CompareTag("Water"))
+   {
+       // Destroy the current object
+       Destroy(gameObject); 
+       // Update the winText to display "You Lose!"
+       winTextObject.gameObject.SetActive(true);
+       winTextObject.GetComponent<TextMeshProUGUI>().text = "Uh Oh! You drowned :(";
+   }
+}
 
 }
