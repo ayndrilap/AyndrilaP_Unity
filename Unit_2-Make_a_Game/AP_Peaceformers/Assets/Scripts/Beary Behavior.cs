@@ -4,15 +4,15 @@ using TMPro;
 public class BearyBehavior : MonoBehaviour
 {
     private int count;
+    public TextMeshProUGUI countText;
+    public GameObject winTextObject;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         count = 0;
-         // Update the count display.
-     
-
- // Initially set the win text to be inactive.
-       
+    // Update the count display.
+    SetCountText(); 
+    winTextObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -29,10 +29,18 @@ public class BearyBehavior : MonoBehaviour
             other.gameObject.SetActive(false);
              // Increment the count of "PickUp" objects collected.
             count = count + 1;
-
  // Update the count display.
+    SetCountText();
            
         }
     }
+    void SetCountText() 
+   {
+       countText.text =  "Count: " + count.ToString();
+       if (count >= 12)
+       {
+           winTextObject.SetActive(true);
+       }
+   }
 
 }
